@@ -1,0 +1,20 @@
+<div class="main container w-25">
+    <div class="logo">
+        <img src="../../assets/banklogo.jpg" alt="">
+    </div>
+    <div class="header">
+        <h3>My Bank</h3>
+        <h6>{{aim}}</h6>
+    </div>
+    <div class="inp">
+        <input (change)="acnoChange($event)" class="inp1" id="login_acno" type="text" [placeholder]="accountNo">
+        <br>
+        <input (change)="pswdChange($event)" class="inp1" id="login_pswd" type="password" placeholder="Password">
+    </div>
+    <div class="btn1">
+        <input class="bttn" type="button" value="Login" (click)="Login()">
+    </div>    
+    <div class="or">
+        <a href="#" onclick="signUp()">Sign up</a> 
+    </div>
+</div>

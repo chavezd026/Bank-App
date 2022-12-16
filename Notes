@@ -1,0 +1,31 @@
+                                    Angular
+
+                                Bank App In Angular
+
+                        Front end : Angular
+                        Back end : Nodejs(Express)
+                        DataBase : MongoDb
+
+        Basic Building Blocks
+
+        1. Module : To import 3rd party libraries
+        2. Component : to create html css and ts files
+
+        Basic Commands
+
+1. Create a project : ng new project_name
+2. Create a component : ng g c component_name
+3. Run : ng serve --open
+
+[1] Data Binding : To share data inside the component
+
+ts : component and html : view
+
+        [1.1] One way data binding ( ts => html OR html => ts file )
+
+                [a] Component to view
+                        [a.1] String interpolation : {{expression}}
+                        [a.2] Property inding : [attibute_name]="property"
+
+                [b] View to component
+                        [b.1] 
